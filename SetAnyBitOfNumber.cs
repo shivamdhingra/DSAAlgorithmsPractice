@@ -5,6 +5,6 @@
  
         public static int SetAnyBitOfNumber(int number , int b)
         {
-            //right shift 1 to b-1 place and X-Or with the number will set the bit on that position
-            return number^ (1<<b-1);
+            //right shift 1 to b-1 place and Or with the number will set the bit on that position
+            return number| (1<<b-1);
         }
